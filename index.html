@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    <title>Agri Assist</title>
+</head>
+<body>
+    <!-- <p onclick="translate()"> Click me</p>
+    <p id="result">What is Agri Assist?</p> -->
+    <div id="nav">
+        <a href="index.html" id="logo"><ion-icon name="leaf"></ion-icon>Agri Assist</a>
+        <div id="options">
+            <a href="index.html">Home</a>
+            <a href="#container">Crops</a>
+            <!-- <a href="#">Schemes</a> -->
+            <a href="#card-container">Markets</a>
+            <a href="#schemes">Schemes</a>
+            <ion-icon name="menu-outline" onclick="menu()"></ion-icon>
+        </div>
+    </div>
+    <br><br>
+    <div id="main">
+        <div id="photo">
+            <img src="https://images.pexels.com/photos/916406/pexels-photo-916406.jpeg?cs=srgb&dl=pexels-dodo-phanthamaly-916406.jpg&fm=jpg" alt="">
+            <!-- <img src="https://www.thestatesman.com/wp-content/uploads/2023/05/Groundnut-cultivation_1-1.jpg" alt=""> -->
+        </div>
+        <div id="matter">
+            <div id="what">
+                <h2><i><span style="color: #28a745;">What is Agri Assist?</span></i></h2>
+            </div>
+            <div id="data">
+                <p>Agri Assist is a groundbreaking platform designed to revolutionize farming communities and uplift agricultural practices. At AgriAssist, our mission is to empower farmers, leading them towards increased yields, improved outcomes, and a path out of poverty. By seamlessly integrating crucial details about markets and governmental schemes, AgriAssist serves as a comprehensive resource hub, offering invaluable information and strategies.</p>
+            </div>
+            <!-- <img src="https://www.utthancareerinstitute.com/wp-content/uploads/2023/02/What-Is-Crop-In-Agriculture.jpg" alt=""> -->
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- food crops, feed crops, fiber crops, oil crops, ornamental crops, and industrial crops. -->
+    <h1 style="text-align: center;"><span style="color: #28a745;"><u><i>CROPS</i></u></span></h1>
+    <div id="container">
+        <div class="dabba">
+            <div class="card" id="card1" >
+                <div class="overlay">
+                    <h3 >Food Crops</h3>
+                    <div><a href="rice.html" target="_blank">Rice</a></div>
+                    <div><a href="wheat.html" target="_blank">Wheat</a></div>
+                    <div><a href="maize.html" target="_blank">Maize</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="dabba">
+            <div class="card" id="card2">
+                <div class="overlay">
+                    <h3 >Oil Crops</h3>
+                    <a href="palm.html" target="_blank">Palm</a><br>
+                    <a href="soyabean.html" target="_blank">Soyabean</a>
+                    <a href="sunflower.html" target="_blank">Sunflower</a>
+                </div>
+            </div>
+        </div>
+        <div class="dabba">
+            <div class="card" id="card3">
+                <div class="overlay">
+                    <h3 >Industrial Crops</h3>
+                    <a href="sugarcane.html" target="_blank">Sugar Cane</a>
+                    <a href="tobaccho.html" target="_blank">Tobacco</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br><br>
+    <h1 style="text-align: center;"><span style="color: #28a745;"><u><i>Markets</i></u></span></h1>
+    <div class="card-container" id="card-container">
+        <div class="market-card">
+            <h3>Unit-1 Market</h3>
+            <div class="card-line"></div>
+            <a href="market-1.html" class="card-button" target="_blank">Visit Market</a>
+        </div>
+
+        <div class="market-card">
+            <h3>Unit-2 Market</h3>
+            <div class="card-line"></div>
+            <a href="market2.html" class="card-button" target="_blank">Visit Market</a>
+        </div>
+
+        <div class="market-card">
+            <h3>Unit-3 Market</h3>
+            <div class="card-line"></div>
+            <a href="market3.html" class="card-button" target="_blank">Visit Market</a>
+        </div>
+    </div>
+    <div id="last">
+        
+        <div id="schemes">
+            <h3 style="text-align: center; margin-bottom: 3px;"><i><b>Schemes</b></i></h3>
+           <marquee direction="up" behavior="scroll" height="100%" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
+            <ol>
+            <li><a href="https://nbb.gov.in/default.html" target="_blank">National Beekeeping and Honey Mission.</a> <br><br> </li>                                                                                                                                        
+            <li><a href="https://pmksy.gov.in/" target="_blank">Pradhan Mantri Krishi Sinchai Yojana.</a><br><br> </li>  
+            <li><a href="https://www.myscheme.gov.in/schemes/nswf" target="_blank">National Scheme of Welfare of Fishermen.</a><br><br> </li>  
+            <li><a href="https://dahd.nic.in/kcc" target="_blank">KCC for animal husbandry and fisheries.</a><br><br> </li>  
+            <li><a href="https://pmkisan.gov.in/" target="_blank">Pradhan Mantri Kisan Samman Nidhi.</a><br><br> </li>  
+            <li><a href="https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1942876" target="_blank">Vibrant Villages Programme.</a><br><br> </li>  
+            <li><a href="https://www.cooperation.gov.in/about-primary-agriculture-cooperative-credit-societies-pacs" target="_blank">Primary Agricultural Credit Societies (PACS)</a><br><br> </li>  
+            </ol>
+           </marquee>
+        </div>
+        <div class="market-card">
+            <h3>Feedback</h3>
+            <div class="card-line"></div>
+            <form class="feedback-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Feedback" required></textarea>
+                <button type="submit" onclick="al()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        function al()
+        {
+            alert("Thank you for your feedback...");
+        }
+    </script>>
+</body>
+</html>
